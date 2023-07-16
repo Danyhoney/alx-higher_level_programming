@@ -1,22 +1,23 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
-"""Eg Google style docstrings.
 
-This module demonstrates documentation as specified by the `Google Python
-Style Guide`_. Docstrings may extend over multiple lines. Sections are created
-with a section header and a colon followed by a block of indented text.
-
-Example:
-    Examples can be given using either the ``Example`` or ``Examples``
-    sections. Sections support any reStructuredText formatting, including
-    literal blocks::
+"""
+File_name: 0-square.py
+Created: 30th of May, 2023
+Auth: Damiel Nyong (Danyhoney)
+Size: undefined
+Project: 0x06-python-classes
+Status: submitted.
 """
 
 
 class Square:
-    """Class Square that define a square.
 
-    This defines an empty square class.
-    As instructed, no method or attribute is created
     """
+    # Write an empty class Square that defines a square:
+    # You are not allowed to import any module
+    # VARIABLE(" "):
+    # class(Square): My first square
+    # Return: Always 0. (Success)
+    """
+    """ This class does not have any attributes or methods defined yet"""
     pass
