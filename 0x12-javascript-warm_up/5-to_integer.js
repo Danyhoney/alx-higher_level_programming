@@ -1,10 +1,4 @@
 #!/usr/bin/node
-const texts = [
-  'C is fun',
-  'Python is cool',
-  'JavaScript is amazing'
-];
+const num = Number.parseInt(process.argv[2]);
 
-for (let i = 0; i < texts.length; i++) {
-  console.log(texts[i]);
-}
+console.log(Number.isNaN(num) ? 'Not a number' : 'My number: ' + num);
