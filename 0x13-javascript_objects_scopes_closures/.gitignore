@@ -1,0 +1,18 @@
+# ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all directories
+!*/
+
+### Above combination will ignore all files without extension ### 
+
+# Igonore Emacs files
+*.swp
+
+__pycache__
+*-main.py
+.vscode
+
