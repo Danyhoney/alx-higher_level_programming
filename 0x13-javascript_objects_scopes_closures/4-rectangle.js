@@ -6,28 +6,19 @@ class Rectangle {
       this.height = h;
     }
   }
-
   print () {
-    for (let i = 1; i <= this.height; i++) {
-      let row = '';
-      for (let j = 1; j <= this.width; j++) {
-        row += 'X';
-      }
-      console.log(row);
+    for (let i = 0; i < this.height; i++) {
+      console.log('X'.repeat(this.width));
     }
   }
-
-  double () {
-    this.height *= 2;
-    this.width *= 2;
-  }
-
   rotate () {
-    const temp = this.height;
-    this.height = this.width;
-    this.width = temp;
+    let temp = this.width;
+    this.width = this.height;
+    this.height = temp;
+  }
+  double () {
+    this.width *= 2;
+    this.height *= 2;
   }
 }
-
 module.exports = Rectangle;
-
